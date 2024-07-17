@@ -1,0 +1,56 @@
+/* General styles */
+.app-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Horizontal tabs */
+  .horizontal-tabs {
+    display: flex;
+    justify-content: flex-start; /* Align tabs to the left */
+    flex-wrap: wrap;
+  }
+  
+  .horizontal-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .horizontal-tab.active {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+  }
+  
+  /* Content container */
+  .content-container {
+    padding: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 10px;
+    }
+  
+    .horizontal-tabs {
+      flex-direction: column;
+      align-items: flex-start; /* Align tabs to the left */
+    }
+  
+    .horizontal-tab {
+      padding: 10px;
+      width: 100%;
+      text-align: left; /* Align text to the left */
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .content-container {
+      padding: 10px;
+    }
+  }
+  

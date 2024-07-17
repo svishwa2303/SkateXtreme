@@ -1,0 +1,38 @@
+.date-picker {
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  border-bottom: 2px solid #007bff;
+  font-weight: bold;
+}
+
+.table {
+  margin-top: 20px;
+  height: 500px; /* Ensure the table has enough height */
+  width: 100%; /* Ensure the table takes full width */
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabs button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

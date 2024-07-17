@@ -1,0 +1,41 @@
+.app-container {
+  padding: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.user-table-container {
+  width: 100%;
+  max-width: 100%;
+  height: 400px; /* Ensure the container has a height */
+  overflow: auto; /* Enable scrolling */
+}
+
+.user-table {
+  height: 100%; /* Ensure the DataGrid fills the container */
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .pagination button {
+    margin: 5px;
+  }
+
+  .user-table-container {
+    height: 300px; /* Adjust height for mobile */
+  }
+}
+
+.editable-cell {
+  background-color: #e0f7fa; /* Light cyan background */
+  border: 1px solid #00838f; /* Cyan border */
+}
+

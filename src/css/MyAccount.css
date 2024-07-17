@@ -1,0 +1,15 @@
+/* Reset Password button */
+.reset-password-button {
+    background-color: #14c0db; /* Red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .reset-password-button:hover {
+    background-color: #0cc8be; /* Darker Red */
+  }
+  

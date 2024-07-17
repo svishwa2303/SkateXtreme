@@ -1,0 +1,50 @@
+/* AdminHome.css */
+
+
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content-container {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+/* HorizontalTabs component */
+.horizontal-tabs {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ba68c8; /* Light Purple or Light Violet */
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.horizontal-tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #333; /* Adjusted text color */
+  background-color: #c285cd; /* Light Grey for button background */
+  border: none;
+  border-radius: 5px;
+}
+
+.horizontal-tab:hover {
+  background-color: #9c27b0; /* Darker Purple or Violet on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.horizontal-tab.active {
+  background-color: #9c27b0; /* Darker Purple or Violet for active tab */
+  color: #fff; /* Text color for active tab */
+}
+
